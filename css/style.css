@@ -549,7 +549,7 @@ section {
   line-height: 2;
 }
 
-.reviews .slide .text {
+.Comentarios .slide .text {
   padding: 2rem;
   font-size: 1.5rem;
   font-style: italic;
@@ -562,7 +562,7 @@ section {
   margin-bottom: 3rem;
 }
 
-.reviews .slide .text::before {
+.Comentarios .slide .text::before {
   content: '';
   position: absolute;
   bottom: -1.5rem;
@@ -574,7 +574,7 @@ section {
           transform: rotate(45deg);
 }
 
-.reviews .slide .user {
+.Comentarios .slide .user {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -584,18 +584,18 @@ section {
   gap: 1rem;
 }
 
-.reviews .slide .user img {
+.Comentarios .slide .user img {
   height: 7rem;
   width: 7rem;
   border-radius: 50%;
 }
 
-.reviews .slide .user h3 {
+.Comentarios .slide .user h3 {
   font-size: 2rem;
   color: #10221b;
 }
 
-.reviews .slide .user span {
+.Comentarios .slide .user span {
   color: #219150;
   font-size: 1.5rem;
 }
@@ -649,53 +649,6 @@ section {
   color: #10221b;
 }
 
-.newsletter {
-  background: #eee;
-}
-
-.newsletter .content {
-  max-width: 70rem;
-  margin: 1rem auto;
-  text-align: center;
-}
-
-.newsletter .content p {
-  font-size: 1.5rem;
-  line-height: 2;
-  color: #10221b;
-}
-
-.newsletter .content form {
-  margin-top: 2rem;
-  background: #fff;
-  border-radius: 5rem;
-  border: 0.2rem solid #10221b;
-  padding: .7rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.newsletter .content form .email {
-  width: 100%;
-  background: none;
-  text-transform: none;
-  font-size: 1.6rem;
-  color: #10221b;
-  padding: 0 1.3rem;
-}
-
-.newsletter .content form .btn {
-  margin-top: 0;
-  border-radius: 5rem;
-  background: #10221b;
-  color: #fff;
-}
-
-.newsletter .content form .btn:hover {
-  background: none;
-  color: #10221b;
-}
 
 .clientes .silde {
   text-align: center;
